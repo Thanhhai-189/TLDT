@@ -7,7 +7,7 @@
   font-family: 'Lora';
   font-style: normal;
   font-weight: 400;
-  src: url('fonts/lora-v31-vietnamese-regular.woff2') format('woff2');
+  src: url('fonts/lora-v37-latin_vietnamese-regular.woff2') format('woff2');
 }
 /* lora-700 - vietnamese */
 @font-face {
@@ -15,7 +15,7 @@
   font-family: 'Lora';
   font-style: normal;
   font-weight: 700;
-  src: url('fonts/lora-v31-vietnamese-700.woff2') format('woff2');
+  src: url('fonts/lora-v37-latin_vietnamese-700.woff2') format('woff2');
 }
 
 /* Roboto */
@@ -121,7 +121,7 @@ ol,ul{color:#3a4749}
 .ScrambledListIdevice .iDevice_header{background-image:url(icon_list.png)}
 
 /* iDevice title */
-.iDeviceTitle{font-size:1.4em;display:inline;font-weight:normal;vertical-align:top;top:0;color:#0D47A1;line-height:60px;padding-right:25px;letter-spacing:.5px}
+.iDeviceTitle{font-size:1.2em;display:inline;font-weight:normal;vertical-align:top;top:0;color:#0D47A1;line-height:60px;padding-right:25px;letter-spacing:.5px}
 .hidden-idevice .iDeviceTitle{color:#0D47A1}
 
 .iDevice_content{overflow:auto}
@@ -204,5 +204,14 @@ li{list-style-position:outside}
 /* UDL iDevice */
 .exe-udlContent-content-simplified{line-height:2.5em;letter-spacing:.15em;word-spacing:.15em}
 .exe-udlContent-content-simplified p{margin:2em 0}
-
-
+/* Căn giữa ảnh */
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+    }
+/* --- MỚI: CSS ĐỂ CĂN GIỮA TẤT CẢ BẢNG --- */
+table {
+  margin-left: auto;
+  margin-right: auto;
+    }
