@@ -10,7 +10,7 @@
 ----------------------------------------------------- */
 .book-container {
 	width: 375px;
-	margin-top: 50px;
+	margin-top: 60px;
 	margin-right: auto;
 	margin-left: auto;
 	margin-bottom: 0;
@@ -40,7 +40,7 @@
     bottom: 0;
     left: 3px;
     width: 7px;
-    background: url(cover.png) repeat-y; z-index: 20;
+    background: url(cover1.jpg) repeat-y; z-index: 20;
     -webkit-transform: translateZ(1px); /* Fix for flickering in Chrome  */
 }
 .book:hover {
@@ -64,7 +64,7 @@ Book cover and spine
     z-index: 5;
     overflow: hidden;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.25);
-    background: url(images/spine.jpg) -64px 0 no-repeat;
+    background: url(cover.jpg) -64px 0 no-repeat;
     background-size: auto 100%;
     -webkit-transform: rotateY(-90deg) translateX(-49px);
     -moz-transform: rotateY(-90deg) translateX(-49px);
@@ -79,7 +79,7 @@ Book cover and spine
 	text-align: left;
 	color: #fff;
 	position: absolute;
-	top: 20px;
+	top: 15px;
 	left: 33px;
 	text-indent: 20px;
 	text-transform: uppercase;
@@ -101,10 +101,11 @@ Book cover and spine
 </head>
 
 <body style="
-    margin:0;
-    padding:0;
-    background: url('bo.jpg') no-repeat center center fixed;
-    background-size: cover;
+margin:0;
+padding:0;
+background: url('data/_intef_bg.png') repeat fixed;
+background-size: auto;   /* hoặc bỏ dòng này */
+
 ">
 <div class="book-container">
 
